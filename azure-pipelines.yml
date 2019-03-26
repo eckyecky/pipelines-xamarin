@@ -56,6 +56,6 @@ jobs:
   - task: XamariniOS@2
     inputs:
       solutionFile: '**/*.sln'
-      configuration: 'Release'
+      configuration: 'Ad-Hoc'
       buildForSimulator: false
       packageApp: true
